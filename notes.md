@@ -1,8 +1,8 @@
 ----
 ## service object notes 
 see blogs 
-[by philippe](http://brewhouse.io/blog/2014/04/30/gourmet-service-objects.html) 
-[by ben](https://blog.engineyard.com/2014/keeping-your-rails-controllers-dry-with-services) 
+[by philippe](http://brewhouse.io/blog/2014/04/30/gourmet-service-objects.html), 
+[by ben](https://blog.engineyard.com/2014/keeping-your-rails-controllers-dry-with-services), 
 [by dave](http://multithreaded.stitchfix.com/blog/2015/06/02/anatomy-of-service-objects-in-rails/)
 or [this video by railscastsPRO](https://www.youtube.com/watch?v=LsUx0dWikmo)
 
