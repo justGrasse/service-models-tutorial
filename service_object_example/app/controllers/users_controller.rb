@@ -25,11 +25,12 @@ class UsersController < ApplicationController
   # POST /users.json
   def create
 
-    card = MTG::Card.where(set: 'aer').all.sample
-    card.name
-    card.image_url
-
     @user = User.new(user_params)
+
+    # HELP: I would like a Service Object
+    card = MTG::Card.where(set: 'aer').all.sample
+    @user.card_name = card.name
+    @user.card_url = card.image_url
 
     respond_to do |format|
       if @user.save
@@ -77,3 +78,5 @@ class UsersController < ApplicationController
       params.require(:user).permit(:username, :email, :password)
     end
 end
+
+    # @user = DonateACard.new(@user).user
