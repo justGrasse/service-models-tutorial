@@ -33,6 +33,3 @@ or [by Dave](http://multithreaded.stitchfix.com/blog/2015/06/02/anatomy-of-servi
 * decorators
 * support objects
 * actions
-
-## random notes
-* ...
