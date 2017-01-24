@@ -7,21 +7,21 @@ or [this video by railscastsPRO](https://www.youtube.com/watch?v=LsUx0dWikmo)
 ## what? [#simple] 
 * classes with [single purpose] public methods to hold logic for models
 
-## who?
-* user authenicators/generators
-* complex api abusers
-* magic card givers
+## why?
+* DRY
+* skinny controllers + skinny models
+* easy-to-follow logic
+* because Sandi Metz, that's why!
 
 ## when?
 * things get messy
 * oddly coupled pieces of model logic
 * ain't makin' sense
 
-## why?
-* DRY
-* skinny controllers + skinny models
-* easy-to-follow logic
-* because Sandi Metz, that's why!
+## who?
+* user authenicators/generators
+* complex api abusers
+* magic card givers
 
 ## how?
 * no state
