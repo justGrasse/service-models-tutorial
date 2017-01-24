@@ -25,7 +25,7 @@ or [this video by railscastsPRO](https://www.youtube.com/watch?v=LsUx0dWikmo)
 
 ## how?
 * no state
-* instance methods
+* instance methods?
 * limit public methods
 
 ## where?
